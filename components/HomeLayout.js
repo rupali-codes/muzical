@@ -24,8 +24,8 @@ export default function HomeLayout(){
                         <p className = "text-muzical_black text-[28px] md:text-[3rem]  font-bold">Let's Enjoy Music Together</p>
                         <p className = "text-muzical_black text-[14px] md:text-[24px] text-center">Enjoy music with your friends and loved ones at one place</p>
                     </div>
-                    <div className = "create_room_btn cursor-pointer rounded-[10rem] py-[4px] px-[10px] md:py-[7px] md:px-[20px] bg-muzical_secondary font-bold">
-                        <Link href={`${process.env.NEXT_PUBLIC_API_ROOT}/channels`}><p className = "text-muzical_primary text-[12px] md:text-[14px] " >Public Rooms <i className = "pl-[5px] fa fa-arrow-right"></i> </p></Link>
+                    <div className = "create_room_btn cursor-pointer rounded-[10rem] py-[4px] px-[10px] md:py-[7px] md:px-[20px] bg-muzical_secondary font-bold border-x-4 hover:bg-muzical_primary shadow-md text-muzical_primary hover:text-muzical_secondary ">
+                        <Link href = {`${process.env.NEXT_PUBLIC_API_ROOT}/channels`}><p className = "text-[12px] md:text-[14px] " >Public Rooms <i className = "pl-[5px] fa fa-arrow-right"></i> </p></Link>
                     </div>
 
                    

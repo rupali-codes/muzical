@@ -42,7 +42,7 @@ export default function Channels(){
                     <div className = "public_rooms_title flex flex-row mb-[50px] ">
                         <div className = "lg:basis-[43%] lg:block hidden"></div>
                         <div className = "flex flex-row items-center justify-between lg:basis-[57%] w-full">
-                            <p className = "text-muzical_primary font-bold sm:text-[24px] text-[18px] text-clip overflow-hidden ">All Public Rooms</p>
+                            <p className = "text-muzical_primary font-semibold sm:text-[24px] text-[18px] text-clip overflow-hidden border-y-2 px-4 mt-8 mx-auto md:mx-0">All Public Rooms</p>
                             {/* <div className="relative w-[35%]">
                                 <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                                     <svg aria-hidden="true" className="w-5 h-5 text-muzical_grey" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule="evenodd"></path></svg>
